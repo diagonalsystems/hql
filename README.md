@@ -1,5 +1,7 @@
 # HQL
 
+> The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to organizational objectives and the organization’s risk strategy.
+
 ## Inventory & Asset Management
 
 ### Places
@@ -19,9 +21,19 @@
 
 ### People
 
+- Organizations
+- Individuals
 - Groups
 - Positions
 - Roles
+- Stakeholders
+  - Owners
+  - Employees
+  - Suppliers
+  - Distributors
+  - Customers
+  - Investors
+  - Government
 
 ### Third-party Services
 
@@ -68,6 +80,52 @@
 - Libraries
 - Documents
 - Records
+- License
+
+### Relationships
+
+- Depends on (Used by)
+- Uses (Used by)
+- Sends data to (Receives data from )
+- Runs (runs on )
+- Connected to (Connected to)
+- Impacts (Impacted by)
+- Submits (Submitted by)
+- Supports (Supported by)
+- Hosted on (Hosts)
+- Enables (Enabled by)
+- Located in (Contains)
+- Exchanges data with (Exchanges data with)
+- Managed by (Manages)
+- Owns (Owned by)
+- Virtualized by (Virtualizes)
+- Backed up by (Backs up)
+- Consists of (Is part of)
+- Attached to (Attached to)
+
+## Threat Modeling
+
+- Scenarios
+  - Title
+  - Threat
+  - Vector (vulnerability?)
+  - Asset
+  - Impact
+- Threat
+  - Source
+    - Natural
+    - Human (Internal, External)
+    - Environmental
+
+
+## Risk Forecasting
+
+- Forecast
+  - Scenario
+  - Timeframe
+  - Forecasters
+  - Probability
+  - Certainty
 
 
 ## Acess Management
@@ -75,6 +133,7 @@
 ### Policies
 
 - Policies
+  - Status (Considered, Planned, Implemented, Monitored)
   - Statements
     - Principals
     - Actions
