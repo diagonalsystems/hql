@@ -49,13 +49,28 @@
 ### Systems
 
 - Physical
-  - Desktops
-  - Laptops
-  - Phones
-  - Modems
-  - Firewalls
-  - Routers
-  - Electronic Locks
+  - Device
+    - State
+      - In Use
+      - Missing
+      - In Transit
+      - In Stock
+    - Type
+      - Desktops
+      - Laptops
+      - Tablets
+      - Phones
+      - Modems
+      - Firewalls
+      - Routers
+      - Switches
+      - Electronic Locks
+    - Product
+    - Vendor
+    - Warranty
+    - Acquisition Date
+    - Serial Number
+    - Cost
 - Virtual
   - Clusters
   - Databases
@@ -81,6 +96,19 @@
 - Documents
 - Records
 - License
+
+## Component Properties
+
+- Sensitivity (Sensitive, Confidential, Private, Proprietary, Public)
+- Criticality 
+- Business value
+- Ownership
+- Assignment
+  - Location
+  - Department
+  - Used by 
+  - Managed by group
+  - Managed by
 
 ### Relationships
 
