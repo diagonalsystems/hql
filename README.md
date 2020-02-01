@@ -2,6 +2,16 @@
 
 > The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to organizational objectives and the organization’s risk strategy.
 
+## Flows
+
+- Scoping
+- Asset Enumeration
+- Threat Modeling
+- Risk Discovery
+- Prioritization
+- Mitigation Analysis
+- Retrospective
+
 ## Inventory & Asset Management
 
 ### Places
@@ -48,33 +58,34 @@
 
 ### Systems
 
-- Physical
-  - Device
-    - State
-      - In Use
-      - Missing
-      - In Transit
-      - In Stock
-    - Type
-      - Desktops
-      - Laptops
-      - Tablets
-      - Phones
-      - Modems
-      - Firewalls
-      - Routers
-      - Switches
-      - Electronic Locks
-    - Product
-    - Vendor
-    - Warranty
-    - Acquisition Date
-    - Serial Number
-    - Cost
-- Virtual
-  - Clusters
-  - Databases
-  - VMs
+- Components
+  - Physical
+    - Device
+      - State
+        - In Use
+        - Missing
+        - In Transit
+        - In Stock
+      - Type
+        - Desktops
+        - Laptops
+        - Tablets
+        - Phones
+        - Modems
+        - Firewalls
+        - Routers
+        - Switches
+        - Electronic Locks
+      - Product
+      - Vendor
+      - Warranty
+      - Acquisition Date
+      - Serial Number
+      - Cost
+  - Virtual
+    - Clusters
+    - Databases
+    - VMs
 
 ### Workloads
 
@@ -96,6 +107,18 @@
 - Documents
 - Records
 - License
+- Contract
+
+### Data Flows
+
+- Processes
+- Flows
+  - Source
+  - Destination
+  - Content
+- Stores
+- Terminator
+
 
 ## Component Properties
 
@@ -134,16 +157,9 @@
 ## Threat Modeling
 
 - Scenarios
-  - Title
   - Threat
-  - Vector (vulnerability?)
-  - Asset
+  - Action
   - Impact
-- Threat
-  - Source
-    - Natural
-    - Human (Internal, External)
-    - Environmental
 
 
 ## Risk Forecasting
@@ -152,13 +168,21 @@
   - Scenario
   - Timeframe
   - Forecasters
-  - Probability
-  - Certainty
+    - Probability
+    - Certainty
 
 
-## Acess Management
+## Mitigation
 
-### Policies
+### Factors
+
+- Response
+- Evidence
+- Containment
+- Prevention
+- Elimination
+
+### Governance
 
 - Policies
   - Status (Considered, Planned, Implemented, Monitored)
@@ -169,3 +193,25 @@
     - Conditions
       - Attributes
       - Provenance
+- Procedures
+- Standards
+- Baselines
+- Guidelines
+
+
+## Work
+
+1. 💰 Business Projects 
+  - internal security consulting
+2. 🔁 Security Operations (Changes)
+  - all ongoing, consistent, repeatable efforts 
+3. 🛠 Security Engineering (Internal IT projects)
+  - investments in the security organization itself
+4. 🚒 Incidents & Unplanned
+  - surprises, last minute tasks, incidents, or failure of imagination and planning
+
+
+## Reference
+
+- [NIST SP 800-30r1 (Risk Management)](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf)
+- [Data-flow Diagram](https://en.wikipedia.org/wiki/Data-flow_diagram)
